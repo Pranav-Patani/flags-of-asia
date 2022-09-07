@@ -79,6 +79,20 @@ h3 {
   background-color: var(--text-field);
 }
 
+@media only screen and (max-width: 800px){
+  .input-field,
+  .output-field {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .input-field,
+  .output-field {
+    width: 60%;
+  }
+}
+
 .flag-container {
   background-image: linear-gradient(
     var(--gradient-dark),
@@ -90,9 +104,22 @@ h3 {
   border-radius: 2rem;
 }
 
+@media only screen and (max-width: 1006px){
+  .flag-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 616px){
+  .flag-container {
+    width: 80%;
+  }
+}
+
 .flag-picker {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flag-list {
@@ -128,4 +155,22 @@ h3 {
   font-size: 1.1rem;
   color: var(--text-color-light);
   font-weight: bold;
+}
+
+@media only screen and (max-width: 760px){
+  .about p {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 536px){
+  .about p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 354px){
+  .about p {
+    width: 90%;
+  }
 }
