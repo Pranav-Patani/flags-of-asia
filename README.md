@@ -18,7 +18,7 @@ You can refer to the images below to understand the web-app better.
 
 ![output field](images/output.png)
 
-3.Flag Library
+3. Flag Library
 
 ![flag library](images/library.png)
 
