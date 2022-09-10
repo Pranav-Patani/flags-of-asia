@@ -22,4 +22,5 @@ You can refer to the images below to understand the web-app better.
 
 ![flag library](images/library.png)
 
+***
 #### HAVE FUN IDENTIFYING SOME FLAGS!
